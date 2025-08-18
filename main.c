@@ -248,6 +248,8 @@ int main(int argc, char *args[]) {
       }
    }
 
+   free_table(table);
+
    return 0;
 }
 
